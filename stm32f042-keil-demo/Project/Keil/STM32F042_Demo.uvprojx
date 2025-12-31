@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="5.3">
+  <Targets>
+    <Target>
+      <TargetName>Target 1</TargetName>
+      <TargetOption>
+        <TargetCommonOption>
+          <DeviceName>STM32F042x6</DeviceName>
+          <PackApplicationID></PackApplicationID>
+          <UseMicroLIB>0</UseMicroLIB>
+        </TargetCommonOption>
+      </TargetOption>
+      <Groups>
+        <Group>
+          <GroupName>Source</GroupName>
+          <Files>
+            <File>
+              <FileName>..\\Src\\main.c</FileName>
+            </File>
+            <File>
+              <FileName>..\\Src\\system_stm32f0xx.c</FileName>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Startup</GroupName>
+          <Files>
+            <File>
+              <FileName>..\\startup\\startup_stm32f0xx.s</FileName>
+            </File>
+          </Files>
+        </Group>
+      </Groups>
+    </Target>
+  </Targets>
+</Project>

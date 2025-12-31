@@ -1,0 +1,11 @@
+# Keil build output
+*.axf
+*.o
+*.obj
+*.dep
+*.ilk
+*.uvoptx
+*.uvprojx.user
+# Mac/Windows
+.DS_Store
+Thumbs.db
